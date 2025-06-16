@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188DBDE22DFFED83009F03F5 /* FocusTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDE12DFFED83009F03F5 /* FocusTimerApp.swift */; };
+		188DBDE42DFFED83009F03F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDE32DFFED83009F03F5 /* ContentView.swift */; };
+		188DBDE62DFFED84009F03F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DBDE52DFFED84009F03F5 /* Assets.xcassets */; };
+		188DBDE92DFFED84009F03F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DBDE82DFFED84009F03F5 /* Preview Assets.xcassets */; };
+		188DBDF12DFFF0BA009F03F5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDF02DFFF0BA009F03F5 /* TimerView.swift */; };
+		188DBDF42DFFF0F6009F03F5 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDF32DFFF0F6009F03F5 /* TimerViewModel.swift */; };
+		188DBDF72DFFF12C009F03F5 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDF62DFFF12C009F03F5 /* TimerManager.swift */; };
+		188DBDF92DFFF149009F03F5 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDF82DFFF149009F03F5 /* PersistenceManager.swift */; };
+		188DBDFB2DFFF16C009F03F5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDFA2DFFF16C009F03F5 /* NotificationManager.swift */; };
+		188DBDFD2DFFF18A009F03F5 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBDFC2DFFF18A009F03F5 /* SettingsManager.swift */; };
+		188DBE032DFFF2BA009F03F5 /* FocusTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE012DFFF2BA009F03F5 /* FocusTimer.xcdatamodeld */; };
+		188DBE052DFFF484009F03F5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE042DFFF484009F03F5 /* HistoryView.swift */; };
+		188DBE072DFFF4AA009F03F5 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE062DFFF4AA009F03F5 /* HistoryViewModel.swift */; };
+		188DBE092DFFF4D2009F03F5 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE082DFFF4D2009F03F5 /* StatsView.swift */; };
+		188DBE0B2DFFF4EB009F03F5 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE0A2DFFF4EB009F03F5 /* StatsViewModel.swift */; };
+		188DBE0E2DFFF522009F03F5 /* StatisticsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE0D2DFFF522009F03F5 /* StatisticsCalculator.swift */; };
+		188DBE102DFFF54B009F03F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE0F2DFFF54B009F03F5 /* SettingsView.swift */; };
+		188DBE122DFFF5B6009F03F5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DBE112DFFF5B6009F03F5 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188DBDDE2DFFED83009F03F5 /* FocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188DBDE12DFFED83009F03F5 /* FocusTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerApp.swift; sourceTree = "<group>"; };
+		188DBDE32DFFED83009F03F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		188DBDE52DFFED84009F03F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188DBDE82DFFED84009F03F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		188DBDF02DFFF0BA009F03F5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		188DBDF32DFFF0F6009F03F5 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		188DBDF62DFFF12C009F03F5 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		188DBDF82DFFF149009F03F5 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		188DBDFA2DFFF16C009F03F5 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		188DBDFC2DFFF18A009F03F5 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		188DBE022DFFF2BA009F03F5 /* FocusTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FocusTimer.xcdatamodel; sourceTree = "<group>"; };
+		188DBE042DFFF484009F03F5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		188DBE062DFFF4AA009F03F5 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		188DBE082DFFF4D2009F03F5 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		188DBE0A2DFFF4EB009F03F5 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		188DBE0D2DFFF522009F03F5 /* StatisticsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsCalculator.swift; sourceTree = "<group>"; };
+		188DBE0F2DFFF54B009F03F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		188DBE112DFFF5B6009F03F5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188DBDDB2DFFED82009F03F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188DBDD52DFFED82009F03F5 = {
+			isa = PBXGroup;
+			children = (
+				188DBDE02DFFED83009F03F5 /* FocusTimer */,
+				188DBDDF2DFFED83009F03F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188DBDDF2DFFED83009F03F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188DBDDE2DFFED83009F03F5 /* FocusTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188DBDE02DFFED83009F03F5 /* FocusTimer */ = {
+			isa = PBXGroup;
+			children = (
+				188DBE0C2DFFF50F009F03F5 /* Utilities */,
+				188DBDFE2DFFF1A9009F03F5 /* Models */,
+				188DBDF52DFFF116009F03F5 /* Managers */,
+				188DBDF22DFFF0DD009F03F5 /* ViewModels */,
+				188DBDEF2DFFF092009F03F5 /* Views */,
+				188DBDE12DFFED83009F03F5 /* FocusTimerApp.swift */,
+				188DBDE32DFFED83009F03F5 /* ContentView.swift */,
+				188DBDE52DFFED84009F03F5 /* Assets.xcassets */,
+				188DBDE72DFFED84009F03F5 /* Preview Content */,
+			);
+			path = FocusTimer;
+			sourceTree = "<group>";
+		};
+		188DBDE72DFFED84009F03F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				188DBDE82DFFED84009F03F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		188DBDEF2DFFF092009F03F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				188DBDF02DFFF0BA009F03F5 /* TimerView.swift */,
+				188DBE042DFFF484009F03F5 /* HistoryView.swift */,
+				188DBE082DFFF4D2009F03F5 /* StatsView.swift */,
+				188DBE0F2DFFF54B009F03F5 /* SettingsView.swift */,
+				188DBE112DFFF5B6009F03F5 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		188DBDF22DFFF0DD009F03F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				188DBDF32DFFF0F6009F03F5 /* TimerViewModel.swift */,
+				188DBE062DFFF4AA009F03F5 /* HistoryViewModel.swift */,
+				188DBE0A2DFFF4EB009F03F5 /* StatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		188DBDF52DFFF116009F03F5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				188DBDF62DFFF12C009F03F5 /* TimerManager.swift */,
+				188DBDF82DFFF149009F03F5 /* PersistenceManager.swift */,
+				188DBDFA2DFFF16C009F03F5 /* NotificationManager.swift */,
+				188DBDFC2DFFF18A009F03F5 /* SettingsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		188DBDFE2DFFF1A9009F03F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				188DBE012DFFF2BA009F03F5 /* FocusTimer.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		188DBE0C2DFFF50F009F03F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				188DBE0D2DFFF522009F03F5 /* StatisticsCalculator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188DBDDD2DFFED82009F03F5 /* FocusTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188DBDEC2DFFED84009F03F5 /* Build configuration list for PBXNativeTarget "FocusTimer" */;
+			buildPhases = (
+				188DBDDA2DFFED82009F03F5 /* Sources */,
+				188DBDDB2DFFED82009F03F5 /* Frameworks */,
+				188DBDDC2DFFED82009F03F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusTimer;
+			productName = FocusTimer;
+			productReference = 188DBDDE2DFFED83009F03F5 /* FocusTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188DBDD62DFFED82009F03F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					188DBDDD2DFFED82009F03F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 188DBDD92DFFED82009F03F5 /* Build configuration list for PBXProject "FocusTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188DBDD52DFFED82009F03F5;
+			productRefGroup = 188DBDDF2DFFED83009F03F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188DBDDD2DFFED82009F03F5 /* FocusTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188DBDDC2DFFED82009F03F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188DBDE92DFFED84009F03F5 /* Preview Assets.xcassets in Resources */,
+				188DBDE62DFFED84009F03F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188DBDDA2DFFED82009F03F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188DBE102DFFF54B009F03F5 /* SettingsView.swift in Sources */,
+				188DBE032DFFF2BA009F03F5 /* FocusTimer.xcdatamodeld in Sources */,
+				188DBDF42DFFF0F6009F03F5 /* TimerViewModel.swift in Sources */,
+				188DBE072DFFF4AA009F03F5 /* HistoryViewModel.swift in Sources */,
+				188DBDF72DFFF12C009F03F5 /* TimerManager.swift in Sources */,
+				188DBE0E2DFFF522009F03F5 /* StatisticsCalculator.swift in Sources */,
+				188DBE0B2DFFF4EB009F03F5 /* StatsViewModel.swift in Sources */,
+				188DBDF12DFFF0BA009F03F5 /* TimerView.swift in Sources */,
+				188DBDF92DFFF149009F03F5 /* PersistenceManager.swift in Sources */,
+				188DBDFD2DFFF18A009F03F5 /* SettingsManager.swift in Sources */,
+				188DBDFB2DFFF16C009F03F5 /* NotificationManager.swift in Sources */,
+				188DBE092DFFF4D2009F03F5 /* StatsView.swift in Sources */,
+				188DBE052DFFF484009F03F5 /* HistoryView.swift in Sources */,
+				188DBE122DFFF5B6009F03F5 /* OnboardingView.swift in Sources */,
+				188DBDE42DFFED83009F03F5 /* ContentView.swift in Sources */,
+				188DBDE22DFFED83009F03F5 /* FocusTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188DBDEA2DFFED84009F03F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188DBDEB2DFFED84009F03F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188DBDED2DFFED84009F03F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enble.hansung.ac.kr.FocusTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188DBDEE2DFFED84009F03F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enble.hansung.ac.kr.FocusTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188DBDD92DFFED82009F03F5 /* Build configuration list for PBXProject "FocusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188DBDEA2DFFED84009F03F5 /* Debug */,
+				188DBDEB2DFFED84009F03F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188DBDEC2DFFED84009F03F5 /* Build configuration list for PBXNativeTarget "FocusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188DBDED2DFFED84009F03F5 /* Debug */,
+				188DBDEE2DFFED84009F03F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188DBE012DFFF2BA009F03F5 /* FocusTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188DBE022DFFF2BA009F03F5 /* FocusTimer.xcdatamodel */,
+			);
+			currentVersion = 188DBE022DFFF2BA009F03F5 /* FocusTimer.xcdatamodel */;
+			path = FocusTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 188DBDD62DFFED82009F03F5 /* Project object */;
+}
