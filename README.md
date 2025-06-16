@@ -58,9 +58,7 @@ FocusTimer는 사용자의 생산성을 극대화하기 위한 다양한 기능�
 
 | 타이머 | 기록 | 통계 | 설정 |
 |:---:|:---:|:---:|:---:|
-| \<img src="URL\_TO\_TIMER\_SCREENSHOT" width="200"\> | \<img src="URL\_TO\_HISTORY\_SCREENSHOT" width="200"\> | \<img src="URL\_TO\_STATS\_SCREENSHOT" width="200"\> | \<img src="URL\_TO\_SETTINGS\_SCREENSHOT" width="200"\> |
-
-> **참고**: 위 이미지는 실제 스크린샷 URL로 교체해야 합니다.
+| <img src="https://github.com/user-attachments/assets/74f30632-0f9e-44fd-a72d-0e9f64e918c1" width="200"> | <img src="https://github.com/user-attachments/assets/3393606d-1fbc-49c7-998a-34848a5ec94f" width="200"> | <img src="https://github.com/user-attachments/assets/342d6df9-67b9-4752-bb63-b6a3d2a5c9f7" width="200"> | <img src="https://github.com/user-attachments/assets/f3cfec05-06ec-452a-b291-5c75954a9c0b" width="200"> |
 
 <br>
 
@@ -155,7 +153,7 @@ SwiftUI와 Combine을 적극적으로 활용하여 앱의 상태를 관리하고
 
 ### 사전 요구사항
 
-  * macOS Monterey 12.0 이상
+  * macOS Big Sur 11.0 이상
   * Xcode 13.0 이상
   * iOS 15.0 이상을 타겟으로 하는 시뮬레이터 또는 실제 기기
 
@@ -174,5 +172,3 @@ SwiftUI와 Combine을 적극적으로 활용하여 앱의 상태를 관리하고
 ## 📜 라이선스 (License)
 
 이 프로젝트는 **MIT License**에 따라 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참고하세요.
-
------
