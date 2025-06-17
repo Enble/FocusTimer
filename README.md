@@ -6,7 +6,7 @@
 
 프로젝트의 주요 기능과 사용법을 소개하는 3분 길이의 영상입니다.
 
-[유튜브_소개_영상]([https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DYOUTUBE_VIDEO_ID](https://www.youtube.com/watch?v=1HejJSJOkuo))
+[![유튜브_소개_영상](https://img.youtube.com/vi/1HejJSJOkuo/0.jpg)](https://www.youtube.com/watch?v=1HejJSJOkuo)
 
 > 위 이미지를 클릭하여 YouTube 영상을 시청하세요.
 
